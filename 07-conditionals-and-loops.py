@@ -46,3 +46,38 @@ while spam <= 10:
         continue
     print(spam)
     spam+=1
+
+### For Loops ####
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+
+for x in "banana":
+  print(x)
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+
+### Range() Function ####
+# Starts at 0
+for x in range(6):
+  print(x)
+
+# With two arguments, the first argument is inclusive, the second is exclusive
+for x in range(2, 6):
+  print(x)
+
+# With three arguments, the third is incrementing amount
+for x in range(2, 30, 3):
+  print(x)
+
+# Else in a For loop
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
