@@ -23,3 +23,24 @@ for listItem in myList:
 supplies = ['pens', 'staplers', 'flame-throwers', 'binders']
 for i in range(len(supplies)):
     print('Index: ' + str(i) + ' in the supplies is ' + supplies[i])
+
+
+### With Dictionaries ######
+# Three usable methods: keys(), values(), items()
+myDict = {
+    'color': 'red',
+    'age': 42,
+    'is_adult': True
+}
+
+print(myDict.keys())
+for key in myDict.keys():
+    print('myDict[' + key + ']: ' + str(myDict[key]))
+
+print(myDict.values())
+for value in myDict.values():
+    print(value)
+
+print(myDict.items())
+for dictTuple in myDict.items():
+    print(dictTuple)
