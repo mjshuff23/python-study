@@ -1,7 +1,7 @@
 ##### CONDITIONALS AND LOOPS #########################
-# `if` keyword
 name = "Michael"
 
+# `if` keyword
 # keyword, condition, colon, indent
 if name == "Michael":
     print("Hey, Michael")

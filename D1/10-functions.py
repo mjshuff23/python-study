@@ -42,4 +42,7 @@ greeting(saying="Hey", name="Barry") # Hey Barry
 #    Here is an example of uppercasing a string
 toUpper = lambda s: s.upper()
 print(toUpper('hello'))
+
+toLower = lambda s: s.lower()
+print(toLower("SUPER"))
 ################################################################################

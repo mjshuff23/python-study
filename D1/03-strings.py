@@ -28,6 +28,7 @@ print("Banana".count('na'))
 
 # concatenation - Python uses the `+` to concatenate
 #               - Multiply a string with `*`
+print("hi" + " " + "hi")
 print("hi"*5)
 
 # format()
