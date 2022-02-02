@@ -41,7 +41,33 @@ def is_an_int(num):
 answer = filter(is_an_int, nums)
 print(list(answer))
 
-# lambda functions - lambda arguments : expression
-answer = filter(lambda x: type(x) == int, nums)
-
+# lambda functions - one liners
+# lambda arguments : expression
+my_lambda = lambda x: type(x) == int
+answer = filter(my_lambda, nums)
 print(list(answer))
+
+# format() - Format a string
+# format(value, format)
+print("Hello, {0}".format("world"))
+print(format(0.5, '%'))
+
+# enumerate() - Return an enumerate object. It produces a sequence of tuples
+#  containing an index and a value.
+x = ("apple", "banana", "cherry")
+y = enumerate(x)
+## Must convert to a list
+print(y)
+print(list(y))
+
+# frozenset() - Return a frozenset object. A frozenset is an immutable set.
+# It is implemented as a class and behaves like a set.
+z = frozenset(x)
+print(z)
+
+# getattr() - Get an attribute from an object 
+# getattr(object, attribute, default)
+print(getattr(Person, 'age', 24))
+
+# setattr() - Set an attribute on an object
+# setattr(object, attribute, value)
