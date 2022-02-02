@@ -134,8 +134,8 @@ print(next(x))
 #  closefd=True, opener=None)
 #   - file - Name of the file.
 #   - mode - Mode to open the file. (r, w, a)
-# read_stream = open("test.txt", "r")
-# print(read_stream.read())
+read_stream = open("test.txt", "r")
+print(read_stream.read())
 
 
 # reversed() - Return a reversed iterator
