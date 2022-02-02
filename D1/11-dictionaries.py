@@ -70,5 +70,37 @@ new_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 # print(new_dict)
 
 # The clear() method empties the dictionary
-new_dict.clear()
-print(new_dict)
+# new_dict.clear()
+# print(new_dict)
+
+# Print all keys in the dictionary
+# for x in new_dict:
+#     print(x)
+
+# Print all the values in the dictionary
+# for x in new_dict:
+#     print(new_dict[x])
+
+# Alternatives:
+# for x in new_dict.values():
+#     print(x)
+
+# for x in new_dict.keys():
+#     print(new_dict[x])
+
+# for key, value in new_dict.items():
+#     print(key, value)
+
+# new_dict_reference = new_dict
+# print(new_dict_reference)
+# # If you change the original, the reference will change)
+# new_dict['a'] = 'new value'
+# print(new_dict_reference)
+
+# # Use the copy() method to make a copy of a dictionary
+# new_dict_2 = new_dict.copy()
+# print(new_dict_2)
+
+# # Another way to copy a dictionary is to use the dict() constructor
+# new_dict_3 = dict(new_dict)
+# print(new_dict_3)
